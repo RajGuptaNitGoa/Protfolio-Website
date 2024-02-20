@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title> 
+    <link rel="stylesheet" href="prot_css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/raj.png" alt="logo" height="7%" width="7%">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times"  onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa fa-bars"  onclick="openmenu()"></i>
+            </nav>
+            <div class="herder-text">
+                <p> Developer </p>
+                <h1>Hi, I'm<span> Raj Gupta</span><br>From India </h1>
+            </div>
+        </div>
+    </div>
+ <!-- *********************  About ******************** -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.jpg" height="90%" width="10%">
+            </div> 
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+<p>"I'm a hardworking and reliable professional with strong communication skills. I'm passionate about delivering quality work and excel in fast-paced environments. I pay close attention to detail and take pride in exceeding expectations."</p>                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience </p>
+                    <p class="tab-links"onclick="opentab('education')">Education </p>
+                </div>
+
+                <!-- skills -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <span>Developer</span> <br>FrontEnd Website Developer <br>Coder
+                        </li>
+                        <li>
+                            <span>Trader/Investor</span> <br>Option Trader On Nifty 50<br>Equity Trader On Cash Market
+                        </li>
+                        <li>
+                            <span>Editor</span> <br>Video Editing <br>Thumbnail & Poster Designing
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Experience -->
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>Coding</span> <br>Doing Coding From Last 2 Year 
+                        </li>
+                        <li>
+                            <span>Trading</span> <br>Part Time Trader From Last 1 Year
+                        </li>
+                        <li>
+                            <span>Editor</span> <br>Doing Editing And Designing For My YT Channel
+                        </li>
+
+                    </ul>
+                </div>
+                
+                <!-- Education  -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>Current</span> <br>Persing B.Tech From NITG "CSE"
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            
+            </div>
+
+        </div>
+    </div>
+</div>     
+
+<!-- ********************** services ***************** -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Degin</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nesciunt, deserunt earum ex quidem dolore neque molestiae ullam fugit, voluptate animi, rerum natus minima veritatis. Tempora itaque, quisquam laborum aut tenetur modi omnis aliquam?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nesciunt, deserunt earum ex quidem dolore neque molestiae ullam fugit, voluptate animi, rerum natus minima veritatis. Tempora itaque, quisquam laborum aut tenetur modi omnis aliquam?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>UI/UX 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nesciunt, deserunt earum ex quidem dolore neque molestiae ullam fugit, voluptate animi, rerum natus minima veritatis. Tempora itaque, quisquam laborum aut tenetur modi omnis aliquam?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- *************** portfolio *********************** -->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/coder.webp" height="80%" width="30%">
+            <div class="layer">
+                <h3>
+                    Social Media App
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id enim, laudantium tenetur deserunt magni eveniet!</p>
+            <a href="#"><i style='font-size:24px' class='fas'>&#xf121;</i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/trader.avif" height="80%" width="30%">
+            <div class="layer">
+                <h3>
+                    Trading App
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id enim, laudantium tenetur deserunt magni eveniet!</p>
+            <a href="#"><i style="font-size:24px" class="fa">&#xf080;</i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/editor.webp" height="80%" width="30%">
+            <div class="layer">
+                <h3>
+                    Coding App
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id enim, laudantium tenetur deserunt magni eveniet!</p>
+            <a href="#"><i class="fa fa-file"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+</div>
+
+<!-- ************************* contact ********************* -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i style="font-size:24px" class="fa">&#xf1d8;</i> graj97062@gmail.com</p>
+                <p><i style="font-size:24px" class="fa">&#xf1d8;</i>graj2k23@gmail.com</p>
+                <p><i style="font-size:24px" class="fa">&#xf095;</i>91990xxxxx</p>
+                <div class="social-icons">
+                    <a href="https://github.com/RajGuptaNitGoa"><i style="font-size:24px" class="fa">&#xf092;</i></a>
+                    <a href="https://www.instagram.com/rajguptassm4/"><i style="font-size:24px" class="fa">&#xf16d;</i></a>
+                    <a href="https://www.youtube.com/channel/UCMmA2J8EWP0u_9SSl6PsoAg"><i style="font-size:24px" class="fa">&#xf16a;</i></a>
+                   
+                </div>
+                <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form action="#" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2 ">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ xxxxx<i style="font-size:18px" class="fa">&#xf004;</i>
+
+        </p>
+    </div>
+</div>
+
+
+<script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontents of tabcontents){
+        tabcontents.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxTE-q8NiVH567QYDJ1LP27-JBkZ9HGD6xO1r8vkkkNSO8TxdQYLsuSzMBOsgA0qqoWWg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML="Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+    
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
